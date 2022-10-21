@@ -47,7 +47,7 @@ public class cargarAlumno {
         * while((linea = br.readLine())!= null){
         * System.out.println(linea)
         * }
-        *
+        *System.out.println();
         *
         * }else{
         *   throw new FileNotFoundException;
