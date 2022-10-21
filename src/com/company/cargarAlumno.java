@@ -40,5 +40,19 @@ public class cargarAlumno {
             throw new RuntimeException(e);
         }
 
+        /*SOLUCION DE EDU
+        * if(fichero.exist())
+        * BufferedReader br = new BufferedReader(new FileReader(fichero));
+        * String linea;
+        * while((linea = br.readLine())!= null){
+        * System.out.println(linea)
+        * }
+        *
+        *
+        * }else{
+        *   throw new FileNotFoundException;
+        * }
+        * */
+
     }
 }
